@@ -45,8 +45,8 @@ int main()
     }*/ //students
     int zz=7;
     pointer a;
-    pointer*b;
-    b=&a;
+    a.z=&zz;
+    cout<<*(a.z);
     
 
     return 0;
