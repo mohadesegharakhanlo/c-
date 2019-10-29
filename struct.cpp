@@ -1,5 +1,9 @@
 #include<iostream>
 using namespace std;
+
+
+
+
 struct mody{
     string fname;
     string lname;
