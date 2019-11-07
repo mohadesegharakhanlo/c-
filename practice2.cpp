@@ -157,7 +157,7 @@ void Start()
         else if(command[1]=="show")
         {
             string classname=command[2];
-            ShowClass(classname);
+            // ShowClass(classname);
         }
         else if(command[1]=="sort" && command[2]=="name")
         {
@@ -169,7 +169,7 @@ void Start()
         }
         else if(command[0]=="basu" && command[1]=="show" && command[2]=="all")
         {
-            //ShowAll();
+            ShowAll();
         }
         else
         {
